@@ -1,10 +1,10 @@
-﻿# MarvellousSense-The ultimate sense way-Aroma Config by Kevinjoa
+﻿# MarvellousSense-The ultimate sense way-Aroma Config by Kevinjoa and djolivier
 
-ini_set("rom_name",             "MArvellous CM9");
+ini_set("rom_name",             "Marvellous CM9");
 ini_set("rom_version",          "alpha1");
-ini_set("rom_author",           "izi501");
+ini_set("rom_author",           "izi501 and the Marvellous Team");
 ini_set("rom_device",           "HTC Wildfire S");
-ini_set("rom_date",             "3 August 2013");
+ini_set("rom_date",             "None as of yet");
 
 ini_set("text_ok", "OK");
 ini_set("text_next", "Next >");
@@ -12,8 +12,8 @@ ini_set("text_back", "< Back");
 ini_set("text_yes", "Yes");
 ini_set("text_no", "No");
 ini_set("text_about", "About");
-ini_set("text_quit", "Quit Installation");
-ini_set("text_quit_msg", "Really Quit the installation?");
+ini_set("text_quit", "Quit Installer");
+ini_set("text_quit_msg", "Do you really want to quit the installer?");
 
 splash(5000, "splash");
 
@@ -30,7 +30,7 @@ viewbox(
 	"<b>Datum: 19-07-2013</b>\n\n"+
 	"Please click next to go on."+
 	"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"+
-	"by izi501, modpunk and all the Marvellous team",
+	"by izi501, modpunk all the Marvellous team",
 	"icons/sensian"
 );
 	
@@ -143,33 +143,33 @@ selectbox(
 
 selectbox(
   "Music",
-  "Which Music Player do you want to use ?",
+  "Which music Player do you want to use?",
   "icons/apps",
   "musik.prop",
-  "Apollo",                    "Stock CM9 Music Player",                                                              1,
-  "Playmusic",                "Googles Music Player",                                                                0
+  "Apollo",                    "Comes with CM9+",                                                              1,
+  "Playmusic",                "Google's Music Player",                                                                0
 );
 
 selectbox(
   "Sounds",
-  "Which Ringtone- Notification- and Alarmtones do you want to use?",
+  "Which toneset do you prefer?",
   "icons/apps",
   "zsounds.prop",
-  "CM9",                 "Stock CyanogenMod 9.1.0 Toneset",                                                          0,
-  "Sense3.5",                 "Stock Htc Sense2.1 Toneset",                                                          0,
-  "Htc One",                  "Htc One Toneset",                                                                     1,
-  "Galaxy s4",                "Galaxy S4 Toneset",                                                                   0,
-  "Sony Xperia Z",            "Sony Xperia Z Toneset",                                                               0  
+  "CyanogenMod 9",                 "Stock CyanogenMod 9.1.0 Toneset",                                                          0,
+  "Sense 3.5",                 "Stock Htc Sense Toneset",                                                          0,
+  "HTC One",                  "Htc One Toneset",                                                                     1,
+  "Samsung Galaxy S4",                "Tonset ripped from GS4",                                                                   0,
+  "Sony Xperia Z",            "Tonset ripped from XZ",                                                               0  
 ); 
 
 selectbox(
-   "SD mounting tweaks",
-   "Which tweak do you want to use ?",
+   "SD-EXT mounting scripts",
+   "Which script do you want to use?",
    "icons/apps",
    "memory.prop",
-   "Link2sd.",                      "Link2sd: Must be activated in system to work",                                    0,
-   "Int2ext+",                      "A background Script like Data2sd, fast but needs some space ",                    0,
-   "Int2ext",                       "Just like Data2sd",                                                               1
+   "Link2SD",                      "Has to be configured and activated manually.",                                    0,
+   "Int2ext+",                      "Faster than INT2EXT, might cause FCs and decrease storage",                    0,
+   "Int2ext",                       "Doesn't have to be configured.",                                                               1
 );    
    
 ini_set("text_next", "Install!");
@@ -178,11 +178,11 @@ ini_set("text_back", "Check");
 viewbox(
 	"<#ff0000>Last Warning!</#>",
 	"\n\n\n\n\n"+
-	"by pressing install rom will be installed.\n\n\n"+
-	"To quit, please press Search-Key\n"+
+	"To start installation, press on next.\n\n\n"+
+	"To quit, please press search key\n"+
 	"and choose quit installation.\n\n"+
-	"If you want to check your settings please press\n"+
-	"please check.",
+	"If you want to check your settings, please press check.\n"+
+	"Thanks!",
 	"icons/alert"
 );
 
@@ -190,8 +190,8 @@ ini_set("text_next", "OK");
 
 install(
 	"Installing...",
-	"MarvellousSense Rom will be installed now.\n"+
-	"Please wait until the rom installation is finished.",
+	"Marvellous CM9 is being installed.\n"+
+	"Please wait until the rom installation has finished.",
 	"icons/install"
 );
 
@@ -201,8 +201,8 @@ ini_set("text_back", "< Back");
 viewbox(
 	"It's DONE !!",
 	"\n\n\n\n\n\n\n"+
-	"The MarvellousSense-ROM is sucssesfully flashed.\n\n"+
-	"First boot can take a while ,so please wait.\n\n"+
+	"Marvellous CM9 has successfully been flashed.\n\n"+
+	"First boot can take a while, so please be patient.\n\n"+
 	"Enjoy your customized phone!",
 	"icons/install"
 );
